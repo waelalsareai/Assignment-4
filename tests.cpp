@@ -49,6 +49,8 @@ if (shipMethod == 1) {
 else if (shipMethod == 2) {
     if (cost <= 300)
         return 10 + (0.02 * cost);  // $10 + 2% for orders ≤ $300
+    return 0.0;  // Free shipping for orders over $300
+}
       
 
 
