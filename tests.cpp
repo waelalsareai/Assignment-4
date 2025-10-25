@@ -24,7 +24,7 @@ using namespace std;
 //Your getShippingCost here - don't forget the Doxygen comment!
 /**
  * @brief Compute the shipping charge based on method and order cost.
-
+ * 
 
 
 ///----------------------------------------------------------------------------------
