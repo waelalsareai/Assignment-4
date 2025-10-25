@@ -44,6 +44,8 @@ if (shipMethod == 1) {
         return -1; // Not available for orders under $100
     if (cost < 500)
         return 50.0;  // $50 flat rate for $100–$499.99
+    return cost * 0.10;  // 10% of cost for $500+
+}
       
 
 
