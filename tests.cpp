@@ -30,8 +30,7 @@ using namespace std;
  *       10% of cost for $500+)
  *   2 = Truck ($25 for orders under $100, free for $100+)
  *   3 = Mail ($10 for orders under $50, $20 otherwise)
-
-
+ 
 
 
 
