@@ -54,6 +54,8 @@ else if (shipMethod == 2) {
 else if (shipMethod == 3) {
     if (cost <= 50)
         return 5.0;  // $5 flat rate for orders ≤ $50
+    else if (cost <= 100)
+        return 10.0;  // $10 flat rate for orders between $51 and $100
       
 
 
