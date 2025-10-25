@@ -40,7 +40,9 @@ using namespace std;
         return -1;
 // Drone (1)
 if (shipMethod == 1) {
-
+    if (cost < 100)
+        return -1; // Not available for orders under $100
+       
 
 
 
