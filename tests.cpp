@@ -36,6 +36,8 @@ using namespace std;
  * @return  shipping cost based on the selected method and cost
  */
  double getshippingcost(int shipmethod, double cost) {
+    if (cost < 0 || shipMethod < 1 || shipMethod > 3)
+        return -1;
 
 
 
