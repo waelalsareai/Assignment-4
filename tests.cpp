@@ -35,7 +35,7 @@ using namespace std;
  * @param cost        the total cost of the order
  * @return  shipping cost based on the selected method and cost
  */
- double getshippingcost(int shipmethod)
+ double getshippingcost(int shipmethod, double cost) {
 
 
 
