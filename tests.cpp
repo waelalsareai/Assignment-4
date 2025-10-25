@@ -38,7 +38,8 @@ using namespace std;
  double getshippingcost(int shipMethod, double cost) {
     if (cost < 0 || shipMethod < 1 || shipMethod > 3)
         return -1;
-
+// Drone (1)
+if (shipMethod == 1) {
 
 
 
