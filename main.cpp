@@ -10,3 +10,4 @@ cout << "Enter the cost of your order: ";
 cin >> cost;
 cout << "Enter your shipping method: ";
 cin >> shipMethod;
+double shipping = getShippingCost(shipMethod, cost);
