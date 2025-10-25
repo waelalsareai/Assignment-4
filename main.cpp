@@ -6,3 +6,7 @@ using namespace std;
 int main() {
 double cost;
 int shipMethod;
+cout << "Enter the cost of your order: ";
+cin >> cost;
+cout << "Enter your shipping method: ";
+cin >> shipMethod;
