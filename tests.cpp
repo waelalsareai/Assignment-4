@@ -33,7 +33,9 @@ using namespace std;
  *
  * @param shipMethod  the shipping method (1, 2, or 3)
  * @param cost        the total cost of the order
- 
+ * @return  shipping cost based on the selected method and cost
+ */
+
 
 
 
