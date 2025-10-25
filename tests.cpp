@@ -42,7 +42,7 @@ using namespace std;
 if (shipMethod == 1) {
     if (cost < 100)
         return -1; // Not available for orders under $100
-       
+      
 
 
 
