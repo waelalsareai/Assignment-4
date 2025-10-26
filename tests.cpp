@@ -35,7 +35,7 @@ using namespace std;
  * @param cost        the total cost of the order
  * @return  shipping cost based on the selected method and cost
  */
- double getshippingCost(int shipMethod, double cost) {
+ double getShippingCost(int shipMethod, double cost) {
     if (cost < 0 || shipMethod < 1 || shipMethod > 3)
         return -1;
 // Drone (1)
