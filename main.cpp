@@ -40,4 +40,7 @@ int main() {
         }
         return 0;
     }
-    
+    cout << fixed << setprecision(2);
+    double total = cost + shipping;
+    cout << "Total is $" << total << endl;
+}
