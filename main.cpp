@@ -2,7 +2,6 @@
 
 using namespace std;
 
-#include "tests.cpp"
 double getShippingCost(int shipMethod, double cost);
 int main() {
 double cost;
