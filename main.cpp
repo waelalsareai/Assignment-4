@@ -32,4 +32,12 @@ int main() {
     cout << "Enter your shipping method: ";
     cin >> shipMethod;
     double shipping = getShippingCost(shipMethod, cost);
+      if (shipping == -1) {
+        if (shipMethod == 1 && cost >= 0 && cost < 100) {
+            cout << "Not available" << endl;
+        } else {
+            cout << "Bad Input" << endl;
+        }
+        return 0;
+    }
     
