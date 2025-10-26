@@ -61,7 +61,7 @@ else if (shipMethod == 3) {
     else
         return 0.0;  // Free shipping for orders over $100
 
-      }
+      {
       
 
 
