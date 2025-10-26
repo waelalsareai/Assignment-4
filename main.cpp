@@ -24,3 +24,6 @@ double getShippingCost(int shipMethod, double cost) {
 
     return -1;
 }
+int main() {
+    double cost;
+    int shipMethod;
