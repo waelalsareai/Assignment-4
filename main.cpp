@@ -31,4 +31,5 @@ int main() {
     cin >> cost;
     cout << "Enter your shipping method: ";
     cin >> shipMethod;
-    double shipping = getShippingCost(shipMethod, Cost);
+    double shipping = getShippingCost(shipMethod, cost);
+    
