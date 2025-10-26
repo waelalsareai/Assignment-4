@@ -15,4 +15,12 @@ double getShippingCost(int shipMethod, double cost) {
         if (cost <= 300) return 10 + 0.02 * cost;  // $10 + 2%
         return 0.0;                                // Free over $300
     }
-    
+    // 3 = Standard
+    if (shipMethod == 3) {
+        if (cost <= 50)  return 5.0;   // $5 for ≤ $50
+        if (cost <= 100) return 10.0;  // $10 for $51–$100
+        return 0.0;                    // Free over $100
+    }
+
+    return -1;
+}
